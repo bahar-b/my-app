@@ -13,8 +13,8 @@ export default function Weather() {
         />
       </form>
       <div className="row">
-          <div className="col-6">
-        <div className="weather-condition active">
+        <div className="col-6">
+          <div className="weather-condition active">
             <h1>
               <span className="temperature"> 5 </span>°
               <a href="/" className="celsius">
@@ -30,8 +30,8 @@ export default function Weather() {
             </h2>
           </div>
         </div>
-          <div className="col-6">
-        <div className="icon-icon ">
+        <div className="col-6">
+          <div className="icon-icon ">
             <img
               className="icon"
               id="icon"
@@ -53,7 +53,7 @@ export default function Weather() {
       </div>
       <div className="forcast-weather">
         <div className="source-code">
-          <a href="https://github.com/bahar-b/" target="-blank" class="link" >
+          <a href="https://github.com/bahar-b/" target="-blank" class="link">
             Open-source code
           </a>
           by Bahar
